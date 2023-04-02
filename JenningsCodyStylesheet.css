@@ -67,3 +67,38 @@ li {
 em {
     color: rgb(163, 199, 17);
 }
+
+caption {
+    font-size: 50px;
+}
+
+table {
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(86, 139, 49);
+    border-collapse: collapse;
+    font-size: 40px;
+}
+
+table, th, td {
+    border: dashed 5px rgb(145, 183, 221);
+  }
+
+  th, td {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 50px;
+  }
+
+  th {
+    text-align: center;
+    vertical-align: top;
+    color: rgb(198, 2, 2)
+  }
+  
+  td {
+    text-align: left;
+    vertical-align: top;
+    color:antiquewhite
+  }
