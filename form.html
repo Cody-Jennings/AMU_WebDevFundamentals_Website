@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cody's form page</title>
+    <meta name="description" content="Cody's Protagonist form page">
+    <meta name="keywords" content="protagonists themed user input form formats">
+    <meta name="author" content="Cody Jennings">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="JenningsCodyStylesheet.css">
+</head>
+
+<body>
+    <ul class="navbar">
+        <li><a href="JenningsCodyHomePage.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="table.html">Table</a></li>
+        <li><a href="form.html">Form</a></li>
+    </ul>
+    <h1>Cody's Protagonist form</h1>
+    <form method="post" action="http://ss1.ciwcertified.com/cgi-bin/process.pl">
+        <p>1.</p>
+        <label for="firstname" style="font-size: xx-large;">First name:</label><br>
+        <input type="text" id="firstname" name="FirstName" placeholder="John" style="font-size: x-large;"><br>
+        <br><label for="lastname" style="font-size: xx-large;">Last name:</label><br>
+        <input type="text" id="lastname" name="LastName" placeholder="Doe" style="font-size: x-large;"><br>
+        <br>
+        <p>2. Choose your favorite protagonist:</p>
+        <input type="radio" id="Kratos1" name="Favorite Protagonist" value="Kratos1">
+        <label for="Kratos1" style="font-size: xx-large;">Kratos (God of War)</label><br>
+        <input type="radio" id="Doom_Slayer/Guy1" name="Favorite Protagonist" value="Doom Slayer/Guy1">
+        <label for="Doom_Slayer/Guy1" style="font-size: xx-large;">Doom Slayer/Guy (Doom/Doom Eternal)</label><br>
+        <input type="radio" id="Jin_Sakai1" name="Favorite Protagonist" value="Jin Sakai1">
+        <label for="Jin_Sakai1" style="font-size: xx-large;">Jin Sakai (Ghost of Tsushima)</label><br>
+        <p>3. If you could live the life of a character with their respective worlds/stats/gear/personalities etc. Which
+            character would you choose?</p>
+        <input type="checkbox" id="Kratos2" name="Favorite World" value="Kratos2">
+        <label for="Kratos2" style="font-size: xx-large;">Kratos (God of War)</label><br>
+        <input type="checkbox" id="Doom_Slayer/Guy2" name="Favorite World" value="Doom_Slayer/Guy2">
+        <label for="Doom_Slayer/Guy2" style="font-size: xx-large;">Doom Slayer/Guy (Doom/Doom Eternal)</label><br>
+        <input type="checkbox" id="Jin_Sakai2" name="Favorite World" value="Jin_Sakai2">
+        <label for="Jin_Sakai2" style="font-size: xx-large;">Jin Sakai (Ghost of Tsushima)</label><br><br>
+        <br>
+        <label for="weapons_choice" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: xx-large;
+        color:antiquewhite">4. Choose your favorite weapon of the following:</label><br>
+        <br><select id="weapons_choice" name="Favorite Weapons" style="font-size: x-large;">
+            <option value="Leviathan Axe (God of War)">Leviathan Axe (God of War)</option>
+            <option value="Blades of Chaos (God of War)">Blades of Chaos (God of War)</option>
+            <option value="Draupnir Spear (God of War)">Draupnir Spear (God of War)</option>
+            <option value="Crucible (Doom/Doom Eternal)">Crucible (Doom/Doom Eternal)</option>
+            <option value="BFG 9000 (Doom/Doom Eternal)">BFG 9000 (Doom/Doom Eternal)</option>
+            <option value="Doomblade (Doom/Doom Eternal)">Doomblade (Doom/Doom Eternal)</option>
+            <option value="Sakai Katana 'Kit:Izanami's Grief' (Ghost of Tsushima)">Sakai Katana "Kit:Izanami's Grief" (Ghost of Tsushima)</option>
+            <option value="Kunai (Ghost of Tsushima)">Kunai (Ghost of Tsushima)</option>
+            <option value="Half Bow (Ghost of Tsushima)">Half Bow (Ghost of Tsushima)</option>
+        </select><br>
+        <br>
+        <br><label for="Future_Mythologies" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: xx-large; color:antiquewhite">5. There are many theories on what mythology Kratos will travel to next. Of the mythologies listed below where would you like to see Kratos travel to?</label><br>
+        <br><select id="Future_Mythologies" name="Future_Mythologies" size="6" style="width:200px;" multiple>
+            <option value="Egyptian" style="font-size: x-large;">Egyptian</option>
+            <option value="Chinese" style="font-size: x-large;">Chinese</option>
+            <option value="Japenese" style="font-size: x-large;">Japanese</option>
+            <option value="Celtic" style="font-size: x-large;">Celtic</option>
+            <option value="Roman" style="font-size: x-large;">Roman</option>
+            <option value="Aztec" style="font-size: x-large;">Aztec</option>
+        </select><br>
+        <p>Hold down the Ctrl (windows) / Command (Mac) button to select multiple options.</p>
+        <p>6. While these are my favorite, I know the gaming world has a plethora of protagonists to choose from. If
+            there are any other protagonists you recommend please feel free to include them below.</p><textarea
+            name="User Message" rows="10" cols="80" style="font-size: xx-large;"
+            placeholder="Recommended Protagonists"></textarea>
+        <br><br><input type="submit" value="Submit" style="font-size: x-large;">
+        <input type="reset" style="font-size: x-large;"><br>
+    </form>
+</body>
+
+</html>
