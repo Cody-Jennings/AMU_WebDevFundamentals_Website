@@ -7,7 +7,7 @@ h1 {
     color: rgb(198, 2, 2);
     text-align: center;
     font-size: 400%;
-    margin-top: 8%;
+    margin-top: 7%;
 }
 
 h2 {
@@ -138,5 +138,31 @@ table, th, td {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+
+
+  button {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    width: 350px;
+    height: 75px;
+    font-size:x-large;
+    background-color: rgb(25, 25, 197);
+    color: antiquewhite;
+  }
+  
+  #time-button {
+    text-align: center;
+    margin-top: 20px; 
+  }
+
+  .mouseover-div {
+    margin: 0 auto;
+  }
+
+  .disclaimer {
+    margin-top: 1%;
   }
   
